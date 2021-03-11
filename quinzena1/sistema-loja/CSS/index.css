@@ -1,0 +1,17 @@
+h1 {
+    color: yellow;
+    background-color:blue;
+}
+
+h2 {
+    color:blue;
+    background-color:yellow;
+
+}
+
+.socialmedia {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
