@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.container-logo {
+    display: inline-block;
+    width: 200px;
+    height: 15vw;
+}
+ 
+.menu {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 8vw;
+    text-align: center;
+    font-size: 18px;
+}
+
+#menu-home li {
+    display: inline;
+}
+
+#menu-home li a {
+    width: 7.5vw;
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    transition: background 6s;
+    float: right;
+}
+
+#menu-home li a:hover {
+    color:red;
+}
+    
+
+#titulo-home h1 {
+    position: absolute;
+    width: 439px;
+    height: 94px;
+    left: 464px;
+    top: 231px;
+    /*font-family: Droid Sans;*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#well-perfil img {
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+}
+
+#well-perfil {
+    left: 514px;
+    top: 371px;
+    position: absolute;
+}
+
+#sobre-mim h3 {
+    position: absolute;
+    width: 1085px;
+    height: 431px;
+    left: 141px;
+    top: 700px;
+    font-family: Droid Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#head1 {
+    position: absolute;
+    width: 1359px;
+    height: 94px;
+    left: 3px;
+    top: 1166px;
+}
+
+.textos-soft-skills ul, li{
+    color: white;
+    list-style: none;
+}
+
+#tsf-esquerda {
+    position: absolute;
+    width: 875px;
+    height: 299px;
+    left: 244px;
+    top: 1275px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    display: table-column;
+    align-items: center;
+    text-align: center;
+}
+
+/*#tsf-direita {
+    position: absolute;
+    width: 539px;
+    height: 431px;
+    left: 630px;
+    top: 1280px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 90px;
+    display: table-column;
+    align-items: right;
+    text-align: right;
+}*/
+
+#head2 {
+    position: absolute;
+    width: 1359px;
+    height: 94px;
+    left: 5px;
+    top: 1587px;    
+}
+
+#titulo-superior-esquerdo {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 155px;
+    top: 1730px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
+
+#body-superior-esquerdo {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 155px;
+    top: 1815px;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: left;
+    color: white;
+}
+
+#titulo-superior-direito {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 729px;
+    top: 1730px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
+
+#body-superior-direito {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 729px;
+    top: 1815px;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: left;
+    color: white;
+}
+
+#titulo-inferior-esquerdo {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 155px;
+    top: 2430px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
+
+#body-inferior-esquerdo {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 155px;
+    top: 2515px;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: left;
+    color: white;
+}
+
+#titulo-inferior-direito {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 729px;
+    top: 2430px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
+
+#body-inferior-direito {
+    position: absolute;
+    width: 529px;
+    height: 472px;
+    left: 729px;
+    top: 2515px;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: left;
+    color: white;
+}
+
+#head3 {
+    position: absolute;
+    width: 1359px;
+    height: 94px;
+    left: 3px;
+    top: 3200px;
+}
+
+#ensino-medio {
+    position: absolute;
+    width: 830px;
+    height: 102px;
+    left: 269px;
+    top: 3400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
+
+#ensino-superior {
+    position: absolute;
+    width: 830px;
+    height: 102px;
+    left: 269px;
+    top: 3600px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
+
+#labenu{
+    position: absolute;
+    width: 830px;
+    height: 102px;
+    left: 269px;
+    top: 3800px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+}
