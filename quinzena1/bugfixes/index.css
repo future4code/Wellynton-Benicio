@@ -19,6 +19,12 @@ h2 {
 input {
     height: 20px;
     width: 500px;
+    border-style: normal;
+    border-bottom-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -128,7 +134,6 @@ td button {
 
 .container-do-search {
     margin-top: 20px;
-    height: 100px;
 }
 
 
