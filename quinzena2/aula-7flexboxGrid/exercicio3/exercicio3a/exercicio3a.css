@@ -1,0 +1,55 @@
+/*
+*
+*
+* Não fiz essa parte do exercício pois estou bem cansado e não consgui assimilar muito bem essa parte do conteúdo ainda.
+*
+*
+*/
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.green-background {
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.yellow-background {
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pink-background {
+    background-color: fuchsia;
+    display: flex;
+}
+
+.blue-background {
+    background-color: blue;
+    display: flex;
+}
+
+.red-background {
+    background-color: red;
+    display: flex;
+}
+
+.lightgreen-background {
+    background-color: lightgreen;
+    display: flex;
+}
+
+.purple-background {
+    background-color: purple;
+    display: flex;
+}
