@@ -1,0 +1,290 @@
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+  grid-column-start: 3;
+  }
+
+  #garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #poison {
+  grid-column-start: 5;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    grade-coluna-início: 1;
+  grid-column-end: 4;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    início da coluna da grade: 5;
+  grid-column-end: 2;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    grade-coluna-início: 1;
+  grid-column-end: -2;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #Poção {
+  grid-column-start: -3; 
+  }
+  
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    início da coluna da grade: 2;
+  grid-column-end: span 2;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    grade-coluna-início: 1;
+  grid-column-end: span 6;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+  grid-column-start: -4;
+    extremidade da coluna da grade: 6;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+  grid-column: -3 / 6;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+  grid-column: -5 / 5;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+  grid-row-start: 3;
+  }
+
+  #garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+  grid-row: 3 / 6;
+  }
+
+  #garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #poison {
+  grid-column: 2;
+  grid-row: 5 ; 
+  }
+
+  #garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+  grid-column: 2/6;
+  grid-row: 1/6;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+  grid-area: 1 / 2 / 4 / 6;
+  }
+
+  #garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water-1 {
+    grid-area: 1 / 4 / 6 / 5;
+  }
+  
+  #water-2 {
+  grid-area: 2 / 3 / 5 / 6;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  .agua {
+    pedido: 0;
+  }
+  
+  #Poção {
+  order: 1
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  .agua {
+    pedido: 0;
+  }
+  
+  .Poção {
+  order: -1;
+  }
+
+  #Jardim {
+    display: grade;
+  grid-template-columns: 50%;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    grade-coluna: 1;
+    grade de linha: 1;
+  }
+
+  #Jardim {
+    display: grade;
+  grid-template-columns: repeat(8, 12.5%);
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    grade-coluna: 1;
+    grade de linha: 1;
+  }
+
+  #garden {
+    display: grid;
+    grid-template-columns: 100px 3em 40%
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+  #Jardim {
+    display: grade;
+   grid-template-columns: 1fr 5fr
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+
+  #Jardim {
+    display: grade;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    linhas de modelo de grade: 20% 20% 20% 20% 20%;
+  }
+  
+  #agua {
+    área de grade: 1/1/6/2;
+  }
+  
+  #Poção {
+    área de grade: 1/5/6/6;
+  }
+
+  #Jardim {
+    display: grade;
+   grid-template-columns: 75px 3fr 2fr; 
+    linhas de modelo de grade: 100%;
+  }
+
+  #Jardim {
+    display: grade;
+    colunas de modelo de grade: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50px 0fr 0fr 0fr; 
+  }
+  
+  #agua {
+    grade-coluna: 1/6;
+    grade de linha: 5/6;
+  }
+
+  #Jardim {
+    display: grade;
+  grid-template: 60%/200px; 
+  }
+  
+  #agua {
+    grade-coluna: 1;
+    grade de linha: 1;
+  }
+
+  #Jardim {
+    display: grade;
+  grid-template: 1fr 50px/20% 80%;
+  }
+  
