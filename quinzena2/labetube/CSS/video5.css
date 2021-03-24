@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(69, 82, 91);
+    color: rgba(254, 126, 2);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+#divBusca {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#btnBusca {
+    height: 20px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.video video {
+    width: 80%;
+    height: 80%;
+}
+
+footer h1 {
+    text-align: center;
+    background-color: rgba(69, 82, 91);
+    color: rgba(254, 126, 2);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+footer h5 {
+    text-align: center;
+    font-family: Arial italic;
+    color: black;
+    background-color:  rgba(69, 82, 91);
+    font-size: 15px;
+}

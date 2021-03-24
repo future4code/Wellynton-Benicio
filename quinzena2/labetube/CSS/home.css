@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+* Laranja: fe7e02; | R254 G126 B2
+* Cinza escuro: 45525b; | Cinza Escuro: R69 G82 B91
+* Cinza claro: a8bbc6;
+*/
+
+header {
+    text-align: center;
+    background-color: rgba(69, 82, 91);
+    color: rgba(254, 126, 2);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+#divBusca {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#btnBusca {
+    height: 20px;
+}
+
+section {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
+
+footer h1 {
+    text-align: center;
+    background-color: rgba(69, 82, 91);
+    color: rgba(254, 126, 2);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+footer h5 {
+    text-align: center;
+    font-family: Arial italic;
+    color: black;
+    background-color:  rgba(69, 82, 91);
+    font-size: 15px;
+}
