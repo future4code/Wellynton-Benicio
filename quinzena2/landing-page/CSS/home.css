@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+* Esta é a parte inicial (home) do projeto, onde o usuário tem acesso ao menu de navegação e uma introdução sobre a empresa. 
+*/
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline:0;
+    overflow: hidden;
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    background-color: #201f24;
+    align-items: center;
+    text-align: center;
+    height: 7vw;
+    justify-content: space-between;
+}
+
+.home img {
+    width: 160px;
+    left: 18px;
+    margin-left: 18px;
+}
+
+.menu-home {
+    margin-right: 18px;
+    display: flex;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu-home li {
+    margin: 0 15px;
+    color: #d2c3b0;
+}
+
+.menu-home a:hover {
+    font-size: 1.5em;
+    transition: ease all 0.2s;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.head-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.head-container img {
+    width: 120vh;
+    left: 120vh;
+}
+
+.textos-head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.textos-head h1 {
+    font-size: 3.5em;
+    color: #201f24;
+}
+
+.textos-head h4 {
+    font-size: 0.9em;
+    color: #201f24;
+}
+
+#hr1 {
+    background-color: #d2c3b0;
+    height: 1vh;
+    width: 100vw;
+}
+
+/*
+* Esta é a sessão onde o usuário envia suas informações para receber simulação de crédito por e-mail. 
+*/
+
+.head-container2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.textos-container2 h1 {
+    font-size: 2.8em;
+    color: #201f24;
+}
+
+.textos-container2 h4 {
+    font-size: 1em;
+    color: #201f24;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin: 20px;
+}
+
+.form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;   
+    margin: 20px;
+}
+
+.form input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 7px;
+    border: 2px solid;
+    margin: 5px 0;
+    text-align: center;
+}
+
+button {
+    border: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #201f24;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#hr2 {
+    background-color: #d2c3b0;
+    height: 1vh;
+    width: 100vw;
+}
+
+/*
+* Esta é a parte do site onde o usuário tem acesso ao detalhamento de como funcionam as soluções da empresa. 
+*/
+
+.head-container3 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.head-container3 h1 {
+    font-size: 2.8em;
+    color: #201f24;
+    width: 100%;
+}
+
+.list-container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 2em;
+    color: #201f24;
+}
+
+.list-container3 hr {
+    background-color:#d2c3b0;
+    height: 1vh;
+    width: 2.5vw;
+
+}
+
+.list-container3 section {
+    margin: 10px 0;
+}
+
+#hr3 {
+    background-color: #d2c3b0;
+    height: 1vh;
+    width: 100vw;
+}
+/*
+* Nesta seção o usuário terá mais informações sobre quem somos. 
+*/
+
+.head-container4 {
+  margin: 30px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.head-container4 h1{
+    font-size: 3em;
+    color: #201f24;
+}
+
+.head-container4 p{
+    font-size: 2em;
+    color: #201f24;
+    text-align: justify;
+    margin: 0 40px;
+}
+
+/*
+* Esta é a seção que antecede o footer, onde o usuário poderá entrar em contato conosco via e-mail. 
+*/
+
+.head-container5 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin: 20px;
+}
+
+.head-container5 h1 {
+    font-size: 3em;
+    width: 100vw;
+    text-align: center;
+    margin-top: 80px;
+} 
+
+#txtarea {
+    border-radius: 7px;
+    border: 2px solid;
+    text-align: center;
+}
+
+.head-container5 form {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;   
+    margin: 20px;
+    text-align: center;
+}
+
+.head-container5 input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 7px;
+    border: 2px solid;
+    margin: 5px 0;
+    text-align: center;
+}
+
+/*
+* Esta é a seção footer, onde o usuário poderá ser redirecionado para as nossas redes sociais.  
+*/
+
+.theend {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #201f24;
+}
+
+.theend img {
+    height: 200px;
+}
+
+.theend h3 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ball {
+    display: flex;
+}
+
+.ball img{
+    height: 40px;
+    border-radius: 300px;
+    margin: 5px 10px;
+}
+
+.theend p {
+    color: #d2c3b0;
+    justify-content: center;
+    text-align: justify;
+    margin: 10px 30px;
+}
+
+/*
+* Aqui estão as definições de responsividade requisitadas 
+*/
+
+@media(max-width: 760px){
+    .home {
+        width: 100%;
+        display: flex;
+        background-color: #201f24;
+        align-items: center;
+        text-align: center;
+        height: 17vw;
+        justify-content: space-between;
+    }
+    
+    .home img {
+        width: 80px;
+        left: 7px;
+        margin-left: 7px;
+    }
+    
+    .menu-home {
+        margin-right: 7px;
+        display: flex;
+        width: 100%;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    
+    .menu-home li {
+        margin: 0 7px;
+        color: #d2c3b0;
+    }
+    
+    .menu-home a:hover {
+        font-size: 1em;
+    }
+
+    .head-container {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .head-container img {
+        width: 100%;
+        left: 100%;
+    }
+    
+    .textos-head {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items:center;
+        text-align: left;
+        margin-left: 200px;
+    }
+    
+    .textos-head h1 {
+        font-size: 2em;
+        color: #201f24;
+    }
+    
+    .textos-head h4 {
+        font-size: 0.9em;
+        color: #201f24;
+    }
+    
+    #hr1 {
+        background-color: #d2c3b0;
+        height: 1vh;
+        width: 100vw;
+    }
+    
+    /*
+    * Esta é a sessão onde o usuário envia suas informações para receber simulação de crédito por e-mail. 
+    */
+    
+    .head-container2 {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .textos-container2 h1 {
+        font-size: 1.8em;
+        color: #201f24;
+    }
+    
+    .textos-container2 h4 {
+        font-size: 1em;
+        color: #201f24;
+    }
+    
+    .form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin: 20px;
+    }
+    
+    .form form {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;   
+        margin: 20px;
+    }
+    
+    .form input {
+        width: 70%;
+        padding: 5px;
+        border-radius: 7px;
+        border: 2px solid;
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    button {
+        border: none;
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #201f24;
+        color: white;
+        font-weight: bold;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    
+    #hr2 {
+        background-color: #d2c3b0;
+        height: 1vh;
+        width: 100vw;
+    }
+    
+    /*
+    * Esta é a parte do site onde o usuário tem acesso ao detalhamento de como funcionam as soluções da empresa. 
+    */
+    
+    .head-container3 {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .head-container3 h1 {
+        font-size: 1.8em;
+        color: #201f24;
+        width: 100%;
+    }
+    
+    .list-container3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        font-size: 1em;
+        color: #201f24;
+    }
+    
+    .list-container3 hr {
+        background-color:#d2c3b0;
+        height: 0.3vh;
+        width: 4.5vw;
+    }
+    
+    .list-container3 section {
+        margin: 10px 0;
+    }
+    
+    #hr3 {
+        background-color: #d2c3b0;
+        height: 1vh;
+        width: 100vw;
+    }
+    /*
+    * Nesta seção o usuário terá mais informações sobre quem somos. 
+    */
+    
+    .head-container4 {
+      margin: 30px 0;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .head-container4 h1{
+        font-size: 2em;
+        color: #201f24;
+    }
+    
+    .head-container4 p{
+        font-size: 1em;
+        color: #201f24;
+        text-align: justify;
+        margin: 0 40px;
+    }
+    
+    /*
+    * Esta é a seção que antecede o footer, onde o usuário poderá entrar em contato conosco via e-mail. 
+    */
+    
+    .head-container5 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin: 20px;
+    }
+    
+    .head-container5 h1 {
+        font-size: 1.5em;
+        width: 100vw;
+        text-align: center;
+        margin-top: 80px;
+    } 
+    
+    #txtarea {
+        border-radius: 7px;
+        border: 2px solid;
+        text-align: center;
+    }
+    
+    .head-container5 form {
+        width: 120%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;   
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .head-container5 input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 7px;
+        border: 2px solid;
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    /*
+    * Esta é a seção footer, onde o usuário poderá ser redirecionado para as nossas redes sociais.  
+    */
+    
+    .theend {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background-color: #201f24;
+    }
+    
+    .theend img {
+        height: 200px;
+    }
+    
+    .theend h3 {
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .ball {
+        display: flex;
+    }
+    
+    .ball img{
+        height: 40px;
+        border-radius: 300px;
+        margin: 5px 10px;
+    }
+    
+    .theend p {
+        color: #d2c3b0;
+        justify-content: center;
+        text-align: justify;
+        margin: 10px 30px;
+    }
+    
+}
