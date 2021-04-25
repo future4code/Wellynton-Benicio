@@ -39,7 +39,15 @@ function retornaNumerosPares (array) {
 //Exercício 4
 
 function retornaMaiorNumero(array) {
-   // implemente sua lógica aqui
+   let meuArrayDeNumbers = [1, 2, 3, 4, 6, 7, 8, 9]
+   let maiorDeTodos = []
+   for (let i = 0; i < meuArrayDeNumbers.length; i++) {
+      let sorteioArray = meuArrayDeNumbers[i];
+      if (sorteioArray >= 9) {
+         maiorDeTodos.push(sorteioArray)
+         console.log("O número  " + maiorDeTodos + "  é o maior de todos os números no array")      
+      }
+   }
 }
 
 //Exercício 5
