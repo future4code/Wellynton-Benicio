@@ -165,13 +165,19 @@ function imprimeChamada() {
       diretor: 'David Frankel',
       atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
     }
-    console.log("Venha assistir ao filme " + filmeFavoritoAstrodev.nome + " do ano de " + filmeFavoritoAstrodev.ano + " dirigido por " + filmeFavoritoAstrodev.diretor + " e estrelado pelos seguintes atores: " + filmeFavoritoAstrodev.atores[0], filmeFavoritoAstrodev.atores[1], filmeFavoritoAstrodev.atores[2], filmeFavoritoAstrodev.atores[3])
+    console.log("Venha assistir ao filme " + filmeFavoritoAstrodev.nome + " do ano de " + filmeFavoritoAstrodev.ano + " dirigido por " + filmeFavoritoAstrodev.diretor + " e estrelado pelos seguintes atores: " + filmeFavoritoAstrodev.atores[0], + " , " + filmeFavoritoAstrodev.atores[1], + " , " + filmeFavoritoAstrodev.atores[2], + " e " +filmeFavoritoAstrodev.atores[3])
 }
 
 // Exercício 14
 
 function criaRetangulo(lado1, lado2) {
-   // implemente sua lógica aqui
+   const dimensoesRetangulo = {
+      largura: 10,
+      altura: 20,
+      perimetro: 60,
+      area: 200
+  }
+  console.log(dimensoesRetangulo)
 }
 
 // Exercício 15
