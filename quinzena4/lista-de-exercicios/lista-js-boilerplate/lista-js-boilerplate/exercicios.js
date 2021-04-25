@@ -22,7 +22,7 @@ function retornaNumerosParesElevadosADois (array) {
    }
 }
 
-//Exercício 3
+/*//Exercício 3
 function retornaNumerosPares (array) {
    let meuArrayDeNumbers = [1, 2, 3, 4, 6, 7, 8, 9]
    let arrayPares = []
@@ -33,7 +33,7 @@ function retornaNumerosPares (array) {
          console.log(arrayPares)      
       }
    }
-}
+}*/
 
 //Exercício 4
 
