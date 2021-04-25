@@ -92,12 +92,24 @@ function retornaNNumerosPares(n) {
       console.log(arrayN[i * varN])
    }
 }
+
+
 // Exercício 8
-
+/*
+Se um triângulo possuir os três lados iguais, ele é chamado de "Equilátero". Se possuir, dois (e somente 2) lados iguais, diz-se que ele é "Isósceles". Se os três lados tiverem medidas diferentes, ele é "Escaleno". Faça uma função que receba como parâmetro os tamanhos dos três lados do triângulo: a, b, c e retorne se ele é Equilátero, Isósceles ou Escaleno
+*/
 function checaTriangulo(a, b, c) {
-  // implemente sua lógica aqui
-}
+  let medidaA = prompt("digite um numero")
+  let medidaB = prompt("digite um numero")
+  let medidaC = prompt("digite um numero")
 
+  if (medidaA === medidaB === medidaC) {
+     console.log("O triângulo é Equilátero.")
+  } else if (medidaA === medidaB || medidaA === medidaC || medidaB === medidaC){
+   console.log("O triângulo é Isósceles.")     
+  } else (medidaA !== medidaB !== medidaC) 
+   console.log("O triângulo é Escaleno.")   
+}
 // Exercício 9
 
 function comparaDoisNumeros(num1, num2) {
