@@ -97,9 +97,9 @@ function retornaNNumerosPares(n) {
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
-  let medidaA = prompt("digite um numero")
-  let medidaB = prompt("digite um numero")
-  let medidaC = prompt("digite um numero")
+  let medidaA = Math.floor(Math.random() * 10 + 1)
+  let medidaB = Math.floor(Math.random() * 10 + 1)
+  let medidaC = Math.floor(Math.random() * 10 + 1)
 
   if (medidaA === medidaB === medidaC) {
      console.log("O triângulo é Equilátero.")
@@ -128,7 +128,11 @@ function comparaDoisNumeros(num1, num2) {
 // Exercício 10
 
 function segundoMaiorEMenor(array) {
-   // implemente sua lógica aqui
+   const arraySugerido = [-1, 2, 34, 26, 15, 50, 46, 102]
+   let segundoMenor = arraySugerido[1]
+   let segundoMaior = arraySugerido[5]
+      
+   console.log(segundoMenor, segundoMaior)
 }
 
 //Exercício 11
