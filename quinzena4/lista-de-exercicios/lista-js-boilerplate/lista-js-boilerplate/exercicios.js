@@ -131,14 +131,17 @@ function segundoMaiorEMenor(array) {
    const arraySugerido = [-1, 2, 34, 26, 15, 50, 46, 102]
    let segundoMenor = arraySugerido[1]
    let segundoMaior = arraySugerido[5]
-      
+
    console.log(segundoMenor, segundoMaior)
 }
 
 //Exercício 11
 
 function ordenaArray(array) {
-   // implemente sua lógica aqui
+   const arraySugerido = [20, 13, -1, 2, 5, 49, -40, 10, 70, 5]
+   console.log(arraySugerido)
+   arraySugerido.sort((a, b) => a-b)
+   console.log(arraySugerido)
 }
 
 // Exercício 12
