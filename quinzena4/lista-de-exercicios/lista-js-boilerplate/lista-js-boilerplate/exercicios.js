@@ -53,7 +53,8 @@ function retornaMaiorNumero(array) {
 //Exercício 5
 
 function retornaQuantidadeElementos (array) {
-   // implemente sua lógica aqui
+   let meuArrayDeNumbers = [1, 2, 3, 4, 6, 7, 8, 9]
+   console.log("O número de elementos no meu array é de " + meuArrayDeNumbers.length + " elementos.")
 }
 
 //Exercício 6
