@@ -85,9 +85,13 @@ function retornaExpressoesBooleanas() {
 //Exercício 7
 
 function retornaNNumerosPares(n) {
-   // implemente sua lógica aqui
+   let arrayN = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+   let varN = Math.floor(Math.random() * 10 + 1)
+   let newArrayN = []
+   for (let i = 0; i < arrayN.length; i++) {
+      console.log(arrayN[i * varN])
+   }
 }
-
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
