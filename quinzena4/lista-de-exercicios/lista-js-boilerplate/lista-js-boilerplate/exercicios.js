@@ -330,11 +330,18 @@ const consultasNome = [
  //Exercício 19, letra A
  
  function ordenaPorNome() {
-  
- }
- 
+   consultasNome.sort(function (a, b) {
+	
+      return (a.consultasNome > b.consultasNome) ? 1 : ((b.consultasNome > a.consultasNome) ? -1 : 0);
+    
+   })
+   console.log(consultasNome)
+}
+
+
+
  // Exercício 19, letra B
- 
+/* 
  const consultasData = [
    { nome: "João", dataDaConsulta: "01/10/2021" },
    { nome: "Pedro", dataDaConsulta: "02/07/2021" },
@@ -342,10 +349,10 @@ const consultasNome = [
    { nome: "Márcia",  dataDaConsulta: "04/05/2021" }
  ]
  
- function ordenaPorData() {
+function ordenaPorData() {
  
  }
-
+*/
 //Exercício 20
 
 const contas = [
@@ -358,5 +365,14 @@ const contas = [
 ]
 
 function atualizaSaldo() {
-  // implemente sua lógica aqui
+   let buscador;   
+   for (let i = 0; i < pessoas.length; i++) {
+      buscador = pessoas[i];
+      if (buscador.cliente === "João") {
+         contas.saldoTotal = 400
+   }else (buscador.cliente === "Paula") 
+      contas.saldoTotal = 6260
+
+ console.log(contas)
+}
 }
