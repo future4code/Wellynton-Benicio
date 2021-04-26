@@ -183,7 +183,21 @@ function criaRetangulo(lado1, lado2) {
 // Exercício 15
 
 function anonimizaPessoa(pessoa) {
-   // implemente sua lógica aqui
+   const dadosUser = {
+      nome: "Astrodev",
+      idade: 25,
+      email: "astrodev@future4.com.br",
+      endereco: "Rua do Futuro, 4"
+    }
+
+    let dadosUserAnonimo = new Object({
+      nome: "Anônimo",
+      idade: 25,
+      email: "astrodev@future4.com.br",
+      endereco: "Rua do Futuro, 4"
+    });
+    
+    console.log(dadosUserAnonimo)
 }
 
 // Exercício 16
