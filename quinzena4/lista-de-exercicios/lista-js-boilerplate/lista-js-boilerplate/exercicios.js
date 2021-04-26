@@ -196,29 +196,50 @@ function anonimizaPessoa(pessoa) {
       email: "astrodev@future4.com.br",
       endereco: "Rua do Futuro, 4"
     });
-    
+
     console.log(dadosUserAnonimo)
 }
 
 // Exercício 16
 
 const arrayDePessoas = [
-  { nome: "Pedro", idade: 20 },
-  { nome: "João", idade: 10 },
-  { nome: "Paula", idade: 12 },
-  { nome: "Artur", idade: 89 } 
-]
-
-// Exercício 16, letra A
-
-function maioresDe18(arrayDePessoas) {
-   // implemente sua lógica aqui
-}
+   { nome: "Pedro", idade: 20 },
+   { nome: "João", idade: 10 },
+   { nome: "Paula", idade: 12 },
+   { nome: "Artur", idade: 89 } 
+ ]
+ 
+ // Exercício 16, letra A
+ 
+ function maioresDe18(arrayDePessoas) {
+ let buscador;
+    let maioresDe18 = []   
+    for (let i = 0; i < arrayDePessoas.length; i++) {
+ buscador = arrayDePessoas[i];
+ 
+   if (buscador.idade >= 18) {
+       maioresDe18.push(buscador)
+       
+    }
+ 
+    }
+ console.log(maioresDe18)
+ }
 
 // Exercício 16, letra B
 
 function menoresDe18(arrayDePessoas) {
-   // implemente sua lógica aqui
+   let buscador;
+   let menoresDe18 = []   
+   for (let i = 0; i < arrayDePessoas.length; i++) {
+      buscador = arrayDePessoas[i];
+      
+      if (buscador.idade <= 17) {
+         menoresDe18.push(buscador)
+      }
+ 
+   }
+console.log(menoresDe18)
 }
 
 // Exercício 17, letra A
