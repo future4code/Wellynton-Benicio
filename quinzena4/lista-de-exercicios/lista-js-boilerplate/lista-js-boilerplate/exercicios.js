@@ -245,19 +245,37 @@ console.log(menoresDe18)
 // Exercício 17, letra A
 
 function multiplicaArrayPor2(array) {
-   // implemente sua lógica aqui
+   const arraySugerido = [1, 2, 3, 4, 5, 6]
+
+   for (let i = 0; i < arraySugerido.length; i++) {
+      let multiplicador = arraySugerido[i] * 2;
+      console.log(multiplicador)
+   }
 }
 
 // Exercício 17, letra B
 
 function multiplicaArrayPor2S(array) {
-  // implemente sua lógica aqui
+   const arraySugerido = [1, 2, 3, 4, 5, 6]
+
+   for (let i = 0; i < arraySugerido.length; i++) {
+      let multiplicador = String(arraySugerido[i] * 2);
+      console.log(typeof(multiplicador))
+      console.log(multiplicador)
+   }
 }
 
 // Exercício 17, letra C
 
 function verificaParidade(array) {
-   // implemente sua lógica aqui
+   const arraySugerido = ["1", "2", "3", "4", "5", "6"]
+   
+   console.log(arraySugerido[0] + " é ímpar")
+   console.log(arraySugerido[1] + " é par")
+   console.log(arraySugerido[2] + " é ímpar")
+   console.log(arraySugerido[3] + " é par")
+   console.log(arraySugerido[4] + " é ímpar")
+   console.log(arraySugerido[5] + " é par")
 }
 
 // Exercício 18
