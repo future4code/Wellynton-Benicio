@@ -292,14 +292,30 @@ const pessoas = [
 //Exercício 18, letra A
 
 function retornaPessoasAutorizadas() {
-   // implemente sua lógica aqui
+   let buscador;
+   let atendemOsCriterios = []   
+   for (let i = 0; i < pessoas.length; i++) {
+      buscador = pessoas[i];
+      if (buscador.idade >= 14 && buscador.idade <= 60 && buscador.altura >= 1.5) {
+         atendemOsCriterios.push(buscador)
+   }
+}
+ console.log(atendemOsCriterios)
 }
 
 
 // Exercício 18, letra B
 
 function retornaPessoasNaoAutorizadas() {
-   // implemente sua lógica aqui
+   let buscador;
+   let naoAtendemOsCriterios = []   
+   for (let i = 0; i < pessoas.length; i++) {
+      buscador = pessoas[i];
+      if (buscador.idade <= 14 || buscador.idade >= 60 || buscador.altura <= 1.5) {
+         naoAtendemOsCriterios.push(buscador)
+   }
+}
+ console.log(naoAtendemOsCriterios)
 }
 
 //Exercício 19
