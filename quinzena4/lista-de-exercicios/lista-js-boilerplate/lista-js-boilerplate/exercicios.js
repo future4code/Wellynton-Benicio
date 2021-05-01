@@ -337,34 +337,3 @@ const consultasNome = [
    })
    console.log(consultasNome)
 }
-
-
-
- // Exercício 19, letra B
-/* 
- const consultasData = [
-   { nome: "João", dataDaConsulta: "01/10/2021" },
-   { nome: "Pedro", dataDaConsulta: "02/07/2021" },
-   { nome: "Paula", dataDaConsulta: "03/11/2021" },
-   { nome: "Márcia",  dataDaConsulta: "04/05/2021" }
- ]
- 
-function ordenaPorData() {
- 
- }
-*/
-//Exercício 20
-
-/*
-const contas = [
-  { cliente: "João", saldoTotal: 1000, compras: [100, 200, 300] },
-  { cliente: "Paula", saldoTotal: 7500, compras: [200, 1040] },
-  { cliente: "Pedro", saldoTotal: 10000, compras: [5140, 6100, 100, 2000] },
-  { cliente: "Luciano", saldoTotal: 100, compras: [100, 200, 1700] },
-  { cliente: "Artur", saldoTotal: 1800, compras: [200, 300] },
-  { cliente: "Soter", saldoTotal: 1200, compras: [] }
-]
-
-function atualizaSaldo() {
-}
-*/
