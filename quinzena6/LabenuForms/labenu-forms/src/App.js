@@ -19,7 +19,8 @@ function OnClick() {
 function App() {
   return (
     <Div>
-      <button>PRÓXIMA ETAPA</button>
+      <button
+      >PRÓXIMA ETAPA</button>
     </Div>
   );
 }
