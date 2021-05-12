@@ -20,7 +20,7 @@ function App() {
   return (
     <Div>
       <button
-      >PRÓXIMA ETAPA</button>
+      >CLIQUE PARA PRÓXIMA ETAPA</button>
     </Div>
   );
 }
