@@ -110,7 +110,7 @@ function operacoesMatematicas () {
     console.log(`O resultado da divisão é: ${divisao}.`)
 }
 
-operacoesMatematicas()
+operacoesMatematicas() 
 
 
 
