@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="CSS/vendas.css" media="screen">
+    <script type="text/javascript" src="vendas.js"></script>
+    <title>Página de venda</title>
+</head>
+
+<body>
+    <div class="menu">
+        <button><a href="index.html">Página Inicial</a></button>
+        <button><a href="add-produto.html">Adicionar Produto</a></button>
+        <button><a href="ctrl-estoque.html">Controle de Estoque</a></button>
+        <button><a href="funcionarios.html">Funcionários<a/button>  
+        <button><a href="vendas.html">Portal de Vendas<a/button>  
+        <button><a href="historico-vendas.html">Histórico de Vendas<a/button>  
+    </div>
+    <div class="container">
+    <h1>Registro de vendas</h1>
+    <h4><strong>Preencha as informações abaixo</strong></h4>
+    <div id="formulario">
+        <form name="venda">
+            <div id="cabeçalho">
+                <label for="funcionario">Vendedor responsável</label>
+                <input type="text" placeholder="Vendedor" id="vendedor">
+                <br>
+                <label for="nome">Nome completo</label>
+                <input type="text" placeholder="Nome completo" id="nome">
+                <br>
+                <label for="phone">Telefone</label>
+                <input type="text" placeholder="(xx) x xxxx-xxxx" id="phone">
+                <br>
+                <label for="mail">E-mail</label>
+                <input type="text" placeholder="user@seuemail.com" id="mail">
+                <br>
+                <label for="address">Endereço completo</label>
+                <input type="text" placeholder="R. seu endereço, nº xx - cidade/estado" id="address">
+            </div>
+            <div class="list">
+                <table border="1">
+                    <tr>
+                        <th> Foto </th>
+                        <th> Produto </th>
+                        <th> Preço (R$)</th>
+                        <th> Quantidade </th>
+                    </tr>
+                    
+                    <tr>
+                        <td><img src="img/phyton.png" alt="Imagem curso básico Phyton" height="100" width="100"/></td>
+                        <td id="product1" > Curso de Phyton básico </td>
+                        <td id="value1" value=100>100</td>
+                        <td><input type="number" id="quantidade1"><label for="value1"></td>
+                    <tr>
+                        <td><img src="img/phyton.png" alt="Imagem curso intermediário Phyton" height="100" width="100"/></td>
+                        <td id="product2"> Curso intermediário de Phhyton </td>
+                        <td id="value2" value=200>200</td>
+                        <td><input type="number" id="quantidade2"><label for="value2"></td>
+                    </tr>
+            
+                    <tr>
+                        <td><img src="img/phyton.png" alt="Imagem curso Avançado Phyton" height="100" width="100"/></td>
+                        <td id="product3"> Curso Avançado de Phyton </td>
+                        <td id="value3" value=300>300</td>
+                        <td><input type="number" id="quantidade3"><label for="value3"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/phyton.png" alt="Imagem curso Completo Phyton" height="100" width="100"/></td>
+                        <td id="product4"> Curso Completo de Phyton </td>
+                        <td id="value4" value=500>500</td>
+                        <td><input type="number" id="quantidade4"><label for="value4"></td>
+                    </tr>
+                </table>  
+                <div>
+                    <select id="pagamento">
+                        <option value="dinheiro" selected>Dinheiro</option>
+                        <option value="boleto">Boleto</option>
+                        <option value="cartao de débito">Cartão de Débito</option>
+                        <option value="cartao de crédito">Cartão de Crédito</option>
+                    </select>
+                </div>  
+            </div>
+            <input class="botão" type="button" onclick="enviar()" placeholder="Fechar venda"></input>
+    </div>
+    </div>
+</body>
+</html>
+
+
+
+
