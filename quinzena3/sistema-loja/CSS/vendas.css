@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.home h1 {
+        color: yellow;
+        background-color:blue;
+        text-align: center;
+    }
+
+.home h2 {
+        color:blue;
+        background-color:yellow;
+        text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: blue;*/
+}
+
+
+#formulario {
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario div {
+    margin: 18px 0;
+}
+
+#cabeçalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-input-placeholder  {
+    text-align: center;
+}
+
+input{
+    width: 20vw;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}   
+
+.list input{
+    margin: 0 5px;
+    width: 10vw;
+}
+
+td {
+    text-align: center;
+}
+
