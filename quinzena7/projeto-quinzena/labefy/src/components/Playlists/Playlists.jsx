@@ -1,4 +1,5 @@
 import React from 'react'
+import PlaylistCard from '../Playlist Card/PlaylistCard'
 
 export default class Playlists extends React.Component {
     state={
@@ -20,14 +21,16 @@ export default class Playlists extends React.Component {
     render(props) {
 
         const playlists = this.state.playlists.map(playlists => {
-            return <p>{playlists.name}</p>
+            return <PlaylistCard
+                key={playlists.id}
+                alterarPage={this.props.alterarPage}
+                nome={playlists.name}
+            />
         })
-
 
         return (
             <div>
                 {playlists}
-                <button onClick={() => {this.props.alterarPage("playlistsDetails")}}>Abrir Playlist</button>
             </div>
         )
     }

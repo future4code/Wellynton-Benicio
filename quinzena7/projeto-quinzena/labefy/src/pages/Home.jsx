@@ -20,7 +20,7 @@ export default class Home extends React.Component {
     }
 
 
-    render() {
+    render(props) {
     const renderizaPage = (page) => {
         if(this.state.page === "CadastrarPlaylist"){
         return <CadastrarPlaylist/>
